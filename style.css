@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.header-image {
+.header__image {
   width: 100%;
 }
 
-.header .more-details {
+.header__more-details {
   font-family: fantasy, cursive;
 }
 
@@ -40,8 +40,9 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.section__task-row-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 
 ul {
@@ -74,7 +75,7 @@ button {
 }
 
 /* Heading */
-.section-title {
+.section__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -99,12 +100,6 @@ button {
 
 .task-input:focus {
   color: #333;
-}
-
-/* New Task */
-.section-title {
-  display: block;
-  margin: 0 0 20px;
 }
 
 #new-task {
@@ -141,13 +136,13 @@ button {
   width: 226px;
 }
 
-.delete-icon {
+.delete-button__icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-icon:hover {
+.delete-button__icon:hover {
   transform: rotateZ(0);
 }
 
